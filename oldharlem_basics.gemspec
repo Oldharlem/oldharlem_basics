@@ -9,15 +9,15 @@ Gem::Specification.new do |s|
   s.version     = OldharlemBasics::VERSION
   s.authors     = ["Fabian Oudhaarlem"]
   s.email       = ["fabian@coqtail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of OldharlemBasics."
-  s.description = "TODO: Description of OldharlemBasics."
+  s.homepage    = "http://oldharlem.nl"
+  s.summary     = "basic code for setting up new projects"
+  s.description = "This gem harbours all basic stuff for new projects. Basic admin and basic pages/menus/settings."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.2.5.2"
+  s.add_dependency "rails", "~> 5.0"
 
   s.add_development_dependency "sqlite3"
 end
